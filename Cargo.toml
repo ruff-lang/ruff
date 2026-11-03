@@ -1,0 +1,7 @@
+[package]
+name = "ruff"
+description = "Compiler for the Ruff programming language, woof!"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
