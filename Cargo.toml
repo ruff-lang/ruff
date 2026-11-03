@@ -1,10 +1,13 @@
 [package]
 name = "ruff"
-description = "Compiler for the Ruff programming language, woof!"
-license = "Apache-2.0"
-license-file = "LICENSE"
 version = "0.1.0"
 edition = "2024"
+description = "Compiler for the Ruff programming language, woof!"
+readme = "README.me"
+repository = "https://github.com/ruff-lang/ruff"
+license = "Apache-2.0"
+license-file = "LICENSE"
+publish = false
 
 [dependencies]
 clap = "4.6.7"

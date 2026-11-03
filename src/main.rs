@@ -3,7 +3,6 @@ use clap::{ArgAction, Command, arg};
 fn main() {
   let matches = Command::new("Ruff")
     .version(env!("CARGO_PKG_VERSION"))
-    .author(env!("CARGO_PKG_AUTHORS"))
     .about(env!("CARGO_PKG_DESCRIPTION"))
 
     .arg(arg!(-o --output <dir> "Set output directory").require_equals(true))
